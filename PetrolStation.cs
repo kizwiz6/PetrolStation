@@ -14,7 +14,7 @@ namespace KizwizPetrol
         private List<IVehicleService> _services;
         private FuelService _fuelService;
 
-        public PetrolStation(FuelService fuelService, List<IVehicleService>services)
+        public PetrolStation(FuelService fuelService, List<IVehicleService> services)
         {
             _fuelService = fuelService;
             _services = services;

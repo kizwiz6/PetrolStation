@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KizwizPetrol
 {
-    class Car : Vehicle
+    public class Car : Vehicle
     {
         // additionl properties and methods specific to cars
     }

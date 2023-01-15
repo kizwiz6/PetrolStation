@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KizwizPetrol
 {
-    class CreditCardPayment : IPaymentMethod
+    public class CreditCardPayment : IPaymentMethod
     {
         public void Pay(double amount)
         {

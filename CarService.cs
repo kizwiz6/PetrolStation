@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KizwizPetrol
 {
-    internal class CarService : IVehicleService
+    public class CarService : IVehicleService
     {
         public void Refuel(double fuelAmount)
         {
